@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from './modules/navbar/ui/navbar'
+import AllRoutes from './all-routes'
 
 const App = () => {
   return (
-    <div className='flex h-screen text-center text-3xl font-Playfair font-bold'>App is the best</div>
+    <>
+      <Navbar />
+      <AllRoutes />
+    </>
   )
 }
 
