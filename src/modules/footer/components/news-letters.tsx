@@ -1,4 +1,4 @@
-import React from 'react'
+import { FaTelegramPlane } from "react-icons/fa";
 
 const NewsLetter = () => {
   return (
@@ -19,7 +19,7 @@ const NewsLetter = () => {
           type='submit'
           className=' px-4 py-2 bg-stone900 rounded-r-md text-white hover:bg-blue-700  transition-colors'
         >
-          🔎
+          <FaTelegramPlane size={15} />
         </button>
       </form>
       <p className='text-xs text-white/70 mt-4'>

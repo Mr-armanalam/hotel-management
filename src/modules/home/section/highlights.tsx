@@ -4,7 +4,7 @@ import { PiCallBellFill } from "react-icons/pi";
 
 const Highlights = () => {
   return (
-    <div className="flex text-stone950">
+    <section className="flex text-stone950">
       <div className="flex mx-auto flex-1 p-8 gap-16 mb-12 h-fit max-w-[1000px]">
         <div className="h-[400] relative w-[700px]">
           <img
@@ -55,7 +55,7 @@ const Highlights = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
