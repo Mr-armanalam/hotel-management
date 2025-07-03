@@ -13,8 +13,8 @@ const Welcome = () => {
           className='w-full h-[90vh] object-cover'
         />
         <div className="absolute text-stone100 flex gap-4 flex-col items-center">
-          <HiHomeModern className='text-3xl text-stone-200 ' />
-          <p className="font-Poppins text-sm font-semibold shadow-lg">Welcome to Hotelio</p>
+          <HiHomeModern className='text-3xl text-stone900 ' />
+          <p className="font-Poppins text-sm font-semibold shadow-lg">WELCOME TO HOTELIO</p>
           <h1 className='text-5xl font-Playfair max-w-[500px] text-center '>Comfort. Luxury. Experience Redefined</h1>
           <button disabled className='border font-Poppins text-stone-200 rounded font-semibold px-4 py-2 mt-3 text-xs'>Rooms & Lodge</button>
         </div>
