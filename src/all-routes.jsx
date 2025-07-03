@@ -1,4 +1,3 @@
-import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './modules/home/ui/home'
 import Services from './modules/services/ui/services'
