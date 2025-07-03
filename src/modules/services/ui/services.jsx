@@ -1,11 +1,12 @@
-import React from 'react'
+import RoomTypes from '../section/room-types'
 import ServicesHeader from '../section/services-header'
 
 const Services = () => {
   return (
-    <div>
+    <>
       <ServicesHeader />
-    </div>
+      <RoomTypes />
+    </>
   )
 }
 
