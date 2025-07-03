@@ -5,7 +5,7 @@ import { HiHomeModern } from "react-icons/hi2";
 
 const Welcome = () => {
   return (
-    <div className=' h-screen'>
+    <section className=' h-screen'>
       <div className="flex items-center relative justify-center">
         <img
           src='/images/welcomeImage.jpg'
@@ -23,7 +23,7 @@ const Welcome = () => {
         Reserve Your Dreame and Stay Now
       </p>
 
-    </div>
+    </section>
   )
 }
 

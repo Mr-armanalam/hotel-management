@@ -1,8 +1,10 @@
-import React from 'react'
+
 
 const NavbarItems = () => {
+  const pathname = window.location.pathname;
+  const isActive = () => pathname === '/' ? 'absolute text-stone100' : 'relative text-stone950';
   return (
-    <nav className='flex z-50 absolute left-0 right-0 text-stone100 justify-center' >
+    <nav className={`flex z-50 ${isActive()} left-0 right-0 justify-center `} >
       <div className="flex items-center font-Playfair py-1.5 border-b border-stone900 max-w-[1000px] justify-between flex-1">
         <div className="flex items-center space-x-16">
           <a href="/" className='text-2xl ' >HOTELIO</a>

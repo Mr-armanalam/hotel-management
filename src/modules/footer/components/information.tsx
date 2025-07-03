@@ -6,7 +6,7 @@ const Information = () => {
       <h1 className='text-2xl font-Playfair'>Information</h1>
       <div className=''>
         <p>📞 +91 8333452373</p>
-        <p className='pl-7'>+91 8333452373</p>
+        <p className='pl-5'>+91 8333452373</p>
       </div>
 
       <p>✉️ info@example.com</p>

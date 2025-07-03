@@ -6,7 +6,7 @@ import Information from '../components/information'
 
 const Footer = () => {
   return (
-    <footer className='h-fit bg-stone950 text-white flex'>
+    <footer className='h-fit mt-auto bg-stone950 text-white flex'>
       <div className="mx-auto gap-x-10 text-xs flex w-full justify-between py-16 max-w-[1000px]">
         <About />
         <ServiceLink />
