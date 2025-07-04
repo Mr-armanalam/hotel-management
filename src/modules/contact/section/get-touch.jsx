@@ -26,7 +26,7 @@ const contactData = [
 const GetTouch = () => {
   return (
     <div className="flex my-20 justify-center">
-      <div className='grid max-w-[980px] gap-x-8 flex-1 grid-cols-2'>
+      <div className='grid max-w-[980px] gap-x-8 flex-1 grid-cols-2 max-sm:grid-cols-1 max-lg:px-4 max-sm:gap-y-20'>
         <div>
           <div className='mb-8'>
             <p className='text-xs text-stone950/60'>SEND US EMAIL</p>
