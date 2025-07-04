@@ -2,7 +2,7 @@
 
 const ServiceLink = () => {
   return (
-    <div className="flex-1/4">
+    <div className="lg:flex-1/4 max-sm:w-full md:flex-1/3 md:w-1/3">
       <h1 className="text-2xl font-Playfair">Services</h1>
       <ul className="mt-6 text-white/90 font-Poppins space-y-4">
         <li>🔘 Room Booking</li>

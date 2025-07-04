@@ -7,7 +7,7 @@ import { HiHomeModern } from "react-icons/hi2";
 
 const About = () => {
   return (
-    <div className="flex-1/3">
+    <div className="lg:flex-1/3 max-md:w-screen md:w-1/2 max-sm:flex-1">
       <div className="flex gap-x-3">
         <HiHomeModern className="text-5xl text-white" />
         <div className="">

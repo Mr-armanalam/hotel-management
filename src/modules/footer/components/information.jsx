@@ -2,7 +2,7 @@ import React from 'react'
 
 const Information = () => {
   return (
-    <address className="flex flex-1/4 text-white/90 flex-col gap-y-6">
+    <address className="flex lg:flex-1/4 md:flex-1/3 text-white/90 flex-col gap-y-6">
       <h1 className='text-2xl font-Playfair'>Information</h1>
       <div className=''>
         <p>📞 +91 8333452373</p>
