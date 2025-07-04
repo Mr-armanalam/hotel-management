@@ -24,8 +24,8 @@ const HotelBooking = () => {
   return (
     <div className='flex flex-col items-center py-24 bg-stone100 mt-16 gap-4'>
       <p className='text-stone950/60 text-xs'>CUSTOMER SERVICES</p>
-      <h2 className='text-4xl font-Playfair max-w-[300px] text-center mb-8'>Book your room & Enjoy the life</h2>
-      <div className="flex gap-4">
+      <h2 className='text-4xl font-Playfair max-lg:w-full max-w-[300px] text-center mb-8'>Book your room & Enjoy the life</h2>
+      <div className="flex max-lg:flex-wrap max-lg:justify-center max-lg:px-8 gap-4">
         {roomData.map((data, index) => (
           <BookRoom key={index} {...data} />
         ))}

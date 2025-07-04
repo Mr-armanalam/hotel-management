@@ -11,8 +11,8 @@ const Home = () => {
     <Suspense fallback={<Loading />}>
       <Welcome />
       <Highlights />
-      {/* <HotelBooking />
-      <BookingAccessibility /> */}
+      <HotelBooking />
+      <BookingAccessibility />
     </Suspense>
   )
 }
