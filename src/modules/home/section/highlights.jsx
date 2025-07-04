@@ -4,8 +4,8 @@ import { PiCallBellFill } from "react-icons/pi";
 
 const Highlights = () => {
   return (
-    <section className="flex text-stone950">
-      <div className="flex mx-auto flex-1 p-8 gap-16 mb-12 h-fit max-w-[1000px]">
+    <section className="flex max-sm:flex-wrap text-stone950">
+      <div className="flex mx-auto flex-1 p-8 md:gap-16 mb-12 h-fit max-sm:flex-wrap max-sm:gap-y-16 max-sm:w-full max-w-[1000px]">
         <div className="h-[400] relative w-[700px]">
           <img
             src="/images/bed.jpg"

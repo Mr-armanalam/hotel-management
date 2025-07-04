@@ -10,8 +10,8 @@ const Home = () => {
   return (
     <Suspense fallback={<Loading />}>
       <Welcome />
-      {/* <Highlights />
-      <HotelBooking />
+      <Highlights />
+      {/* <HotelBooking />
       <BookingAccessibility /> */}
     </Suspense>
   )
