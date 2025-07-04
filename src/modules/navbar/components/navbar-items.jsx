@@ -2,7 +2,7 @@
 
 const NavbarItems = () => {
   const pathname = window.location.pathname;
-  const isAbsolute = () => pathname === '/' ? 'absolute text-stone100 ' : 'relative text-stone950';
+  const isAbsolute = () => pathname !== '/services' ? 'absolute text-stone100 ' : 'relative text-stone950';
   const isActive = (path) => pathname === path && 'underline';
   return (
     <nav className={`flex z-50 ${isAbsolute()} left-0 right-0 justify-center `} >
