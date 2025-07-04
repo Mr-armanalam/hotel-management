@@ -42,11 +42,11 @@ const ServiceTypes = () => {
         <p className="text-sm font-Playfair text-gray-900/80">HOTELIO SERVICES </p>
         <h2 className="text-4xl mt-2 font-Playfair">Hotel Facilities</h2>
       </div>
-      <div className="grid gap-4 grid-cols-3 w-full max-w-[1000px]">
+      <div className="grid gap-4 grid-cols-3 w-full max-w-[1000px] max-lg:w-full max-md:flex-wrap max-sm:px-4">
         {Array.from({ length: 6 }).map((_, index) => {
           const IconComponent = icons[index].icon;
           return (
-            <div key={index} className='border text-center px-8 gap-y-4 border-stone100 flex flex-col items-center h-[190px]'>
+            <div key={index} className='border text-center px-8 gap-y-4 border-stone100 flex flex-col items-center h-[190px] max-sm:col-span-full '>
               <div className='h-3 w-28 bg-stone100' />
               <IconComponent className='text-4xl text-stone900' />
               <h1 className='text-xl font-Playfair'> {icons[index].title}</h1>

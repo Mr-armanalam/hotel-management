@@ -6,7 +6,7 @@ import { IoPersonCircleOutline } from "react-icons/io5";
 
 const BookRoom = ({ roomType, price, src }) => {
   return (
-    <a href="/"  className="bg-white rounded w-[300px]">
+    <a href="/"  className="bg-white rounded max-sm:w-full w-[300px]">
       <img src={src} alt="room" className="w-full h-[200px] rounded-t-md" />
       <div className="mx-6 py-2 border-b border-stone950/20">
         <h3 className="pt-2 font-Playfair">{roomType}</h3>

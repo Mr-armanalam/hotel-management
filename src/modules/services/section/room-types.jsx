@@ -8,12 +8,12 @@ const RoomTypes = () => {
         <p className="text-sm font-Playfair text-gray-900/80">HOTELIO LUXURY ROOMS</p>
         <h2 className="text-4xl mt-2 font-Playfair">Luxury Rooms & Lodges</h2>
       </div>
-      <div className="flex-1 max-w-[1000px] grid gap-6 grid-rows-2">
-        <div className='grid gap-6 grid-cols-2'>
+      <div className="flex-1 max-w-[1000px] grid gap-6 md:grid-rows-2 max-lg:px-4">
+        <div className='grid gap-6 grid-cols-2 max-sm:grid-cols-1'>
           <RoomTypeImage roomtype="Junior Suite" src={'/images/junior_suite.jpg'} />
           <RoomTypeImage roomtype="Family Room" src={'/images/family_room.jpg'} />
         </div>
-        <div className='grid gap-6 grid-cols-4'>
+        <div className='grid gap-6 grid-cols-4 max-sm:grid-cols-1 '>
           <RoomTypeImage roomtype="Double Room" src={'/images/double_room1.jpg'} />
           <RoomTypeImage roomtype="Double Room" colspan={2} src={'/images/double_room2.jpg'} />
           <RoomTypeImage roomtype="Deluxe Room" src={'/images/deluxe_room.jpg'} />
