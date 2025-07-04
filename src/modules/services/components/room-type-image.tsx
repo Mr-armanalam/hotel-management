@@ -3,12 +3,12 @@ import React from "react";
 const RoomTypeImage = ({ src, colspan,price = 150, roomtype='Double Room' }) => {
   return (
     <div
-      className={`w-full ${colspan === 2 ? "col-span-2" : "col-span-1"} relative h-[230px]`}
+      className={`w-full ${colspan === 2 ? "md:col-span-2" : "col-span-1"} relative md:h-[200px] lg:h-[230px]`}
     >
       <img
         src={src}
         alt="room_type_image"
-        className='w-full h-[230px]'
+        className='w-full md:h-[200px] h-[230px]'
       />
       <div className="absolute text-white py-4 px-6 text-right bottom-0 right-0">
         <h3 className="font-Playfair">{roomtype}</h3>
