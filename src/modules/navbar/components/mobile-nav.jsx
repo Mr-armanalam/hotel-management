@@ -7,7 +7,7 @@ const MobileNav = ({ isActive }) => {
     const [isToggle, setisToggle] = useState(false);
 
   return (
-    <div className="flex text-white relative items-center w-full justify-between sm:hidde">
+    <div className="flex text-white relative items-center w-full justify-between sm:hidden">
       <a href="/" className={`text-2xl`}>
         HOTELIO
       </a>
